@@ -1,0 +1,89 @@
+/*galeria*/
+.flex{
+    @include flex;
+    .flex{
+        @include flex;
+        .turisTandil{
+            width: 95%;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+    }
+    h1{
+        @include h1;
+    }
+    .flex{
+        @include flex;
+        .galeria{
+            width: 70%;
+            margin: 10px;
+        }
+    }
+}
+
+/*blog*/
+main{
+    h1{
+        @include h1;
+    }
+    section{
+        h2{
+            @include h2;
+        }
+        p{
+            @include p;
+        }
+        .centrado{
+            text-align: center;
+            margin: 15px;
+            .a{
+                @include a;
+            }
+            .huella{
+                width: 30%;
+                margin: 5px;
+            }
+        }
+    }
+    section{
+        h2{
+            @include h2;
+        }
+        div{
+            p{
+                @include p;
+            }
+        }
+        .centrado{
+            text-align: center;
+            margin: 15px;
+            .galeria{
+                width: 70%;
+                margin: 10px;
+            }   
+        }
+        div{
+            .negrita{
+                text-decoration: underline;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+/*tours*/
+main{
+    .container{
+        .row{
+            @include flex;
+            .card{
+                .card-body{
+                    .color{
+                        background-color: $verdeOscuro;
+                        color: $blanco;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+/*reservas*/
+.color{
+    background-color: #52734d;
+    color: azure;
+}
+.form-check-input:checked{
+    background-color: #52734d;
+    border-color:#91c788;
+}
+.form-check-input:focus{
+    border-color:#91c788;
+    box-shadow:0 0 0 .25rem #91c788;
+}
+.form-control:focus{
+    border-color:#91c788;
+    box-shadow:0 0 0 .25rem #91c788;
+}
+.form-select:focus{
+    border-color:#91c788;
+    box-shadow:0 0 0 .25rem #91c788;
+}
+.btn-close:focus{
+    border-color:#91c788;
+    box-shadow:0 0 0 .25rem #91c788;
+}
+.btn:focus{
+    border-color:#91c788;
+    box-shadow:0 0 0 .25rem #91c788;
+}

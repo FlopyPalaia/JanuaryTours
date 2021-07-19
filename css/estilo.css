@@ -1,0 +1,324 @@
+.header {
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 1; }
+  .header .logo {
+    display: flex;
+    justify-content: center; }
+  .header #logo2 {
+    width: 50px;
+    margin: 5px; }
+  .header nav {
+    text-align: center; }
+    .header nav ul {
+      padding-left: 0px; }
+      .header nav ul .menu {
+        display: inline-block;
+        padding-bottom: 15px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px; }
+        .header nav ul .menu .a {
+          text-decoration: none;
+          border: solid 1px #395e5f;
+          padding: 5px;
+          color: #395e5f;
+          background-color: white; }
+          .header nav ul .menu .a.a:hover {
+            border: #395e5f solid 2px;
+            color: #395e5f; }
+
+.hr {
+  margin: 25px; }
+
+#haciaArriba {
+  width: 40px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 5px;
+  opacity: .6; }
+  #haciaArriba#haciaArriba:hover {
+    opacity: .8; }
+
+.gridFooter {
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  grid-template-areas: "fotoTelefono telefono fotoMail mail fotoYoutube youtube fotoInsta insta";
+  justify-content: center; }
+  .gridFooter .red-social {
+    width: 30px;
+    margin-left: 15px; }
+  .gridFooter .social {
+    margin-bottom: 10px; }
+    .gridFooter .social.social:hover {
+      transform: scale(1.05, 1.05); }
+  .gridFooter .a {
+    text-decoration: none;
+    border: solid 1px #395e5f;
+    padding: 5px;
+    color: #395e5f;
+    background-color: white; }
+  .gridFooter #fotoTelefono {
+    grid-area: fotoTelefono;
+    margin-bottom: 5px; }
+  .gridFooter #telefono {
+    grid-area: telefono;
+    margin-bottom: 10px; }
+  .gridFooter #fotoMail {
+    grid-area: fotoMail;
+    margin-bottom: 5px; }
+  .gridFooter #mail {
+    grid-area: mail;
+    margin-bottom: 10px; }
+  .gridFooter #fotoYoutube {
+    grid-area: fotoYoutube;
+    margin-bottom: 5px; }
+  .gridFooter #youtube {
+    grid-area: youtube;
+    margin-bottom: 10px; }
+  .gridFooter #fotoInsta {
+    grid-area: fotoInsta;
+    margin-bottom: 5px; }
+  .gridFooter #insta {
+    grid-area: insta;
+    margin-bottom: 10px; }
+
+main .flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  main .flex .imagenes {
+    width: 93%; }
+
+main section .frase {
+  font-style: italic;
+  text-transform: uppercase;
+  word-spacing: 5px;
+  text-align: center;
+  margin: 25px; }
+
+main h1 {
+  color: #52734d;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  margin: 25px;
+  font-size: xx-large;
+  font-weight: bold; }
+
+main section p {
+  margin-left: 30px;
+  padding: 5px;
+  margin-bottom: 5px; }
+
+main section h2 {
+  color: #91c788;
+  font-family: 'Comfortaa', cursive;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-top: 30px; }
+
+main section .grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-areas: "foto1 foto2 foto3";
+  justify-items: center; }
+  main section .grid .trans:hover {
+    transform: scale(1.1, 1.1); }
+  main section .grid .trans .indexTour {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    main section .grid .trans .indexTour #foto1 {
+      grid-area: foto1; }
+    main section .grid .trans .indexTour #foto2 {
+      grid-area: foto2; }
+    main section .grid .trans .indexTour #foto3 {
+      grid-area: foto3; }
+    main section .grid .trans .indexTour .galeria {
+      width: 70%;
+      margin: 10px; }
+
+section h2 {
+  color: #91c788;
+  font-family: 'Comfortaa', cursive;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-top: 30px; }
+
+section p {
+  margin-left: 30px;
+  padding: 5px;
+  margin-bottom: 5px; }
+
+section .linkCentrado {
+  text-align: center;
+  margin: 25px; }
+  section .linkCentrado .a {
+    text-decoration: none;
+    border: solid 1px #395e5f;
+    padding: 5px;
+    color: #395e5f;
+    background-color: white; }
+
+section .flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  section .flex .yo {
+    width: 15%;
+    border-radius: 50px; }
+
+/*galeria*/
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .flex .flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .flex .flex .turisTandil {
+      width: 95%;
+      margin-top: 30px;
+      margin-bottom: 20px; }
+  .flex h1 {
+    color: #52734d;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    margin: 25px;
+    font-size: xx-large;
+    font-weight: bold; }
+  .flex .flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .flex .flex .galeria {
+      width: 70%;
+      margin: 10px; }
+
+/*blog*/
+main h1 {
+  color: #52734d;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  margin: 25px;
+  font-size: xx-large;
+  font-weight: bold; }
+
+main section h2 {
+  color: #91c788;
+  font-family: 'Comfortaa', cursive;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-top: 30px; }
+
+main section p {
+  margin-left: 30px;
+  padding: 5px;
+  margin-bottom: 5px; }
+
+main section .centrado {
+  text-align: center;
+  margin: 15px; }
+  main section .centrado .a {
+    text-decoration: none;
+    border: solid 1px #395e5f;
+    padding: 5px;
+    color: #395e5f;
+    background-color: white; }
+  main section .centrado .huella {
+    width: 30%;
+    margin: 5px; }
+
+main section h2 {
+  color: #91c788;
+  font-family: 'Comfortaa', cursive;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-top: 30px; }
+
+main section div p {
+  margin-left: 30px;
+  padding: 5px;
+  margin-bottom: 5px; }
+
+main section .centrado {
+  text-align: center;
+  margin: 15px; }
+  main section .centrado .galeria {
+    width: 70%;
+    margin: 10px; }
+
+main section div .negrita {
+  text-decoration: underline;
+  font-weight: bold; }
+
+/*tours*/
+main .container .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  main .container .row .card .card-body .color {
+    background-color: #52734d;
+    color: white; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Quicksand', sans-serif; }
+
+@media only screen and (max-width: 576px) {
+  .gridFooter {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: "fotoTelefono  telefono fotoYoutube youtube"  "fotoMail mail fotoInsta insta"; }
+  #fotoTelefono {
+    margin-bottom: 5px;
+    grid-area: fotoTelefono;
+    margin-left: 25px; }
+  #fotoMail {
+    margin-bottom: 5px;
+    grid-area: fotoMail;
+    margin-left: 15px; }
+  #fotoYoutube {
+    margin-bottom: 5px;
+    grid-area: fotoYoutube;
+    margin-left: 20px; }
+  #fotoInsta {
+    margin-bottom: 5px;
+    grid-area: fotoInsta;
+    margin-left: 30px; }
+  #logo {
+    display: none; }
+  p {
+    margin: 20px; }
+  #haciaArriba {
+    width: 40px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 50px;
+    margin-right: 5px;
+    opacity: .6; } }
+
+@media only screen and (min-width: 577px) {
+  #logo2 {
+    display: none; } }

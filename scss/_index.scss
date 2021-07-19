@@ -1,0 +1,84 @@
+main{
+    .flex{
+        @include flex;
+        .imagenes{
+            width: 93%;
+        }
+    }
+    section{
+        .frase{
+            font-style: italic;
+            text-transform: uppercase;
+            word-spacing: 5px;
+            text-align: center;
+            margin: 25px;
+        }
+    }
+    h1{
+        @include h1;
+    }
+    section{
+        p{
+            @include p;
+        }
+    }
+    section{
+        h2{
+            @include h2;
+        }
+        .grid{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            grid-template-areas:
+            "foto1 foto2 foto3";
+            justify-items: center;
+            .trans{
+                &:hover{
+                transform: scale(1.1, 1.1);
+                }
+                .indexTour{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    #foto1{
+                        grid-area: foto1;
+                    }
+                    #foto2{
+                        grid-area: foto2;
+                    }
+                    #foto3{
+                        grid-area: foto3;
+                    }
+                    .galeria{
+                        width: 70%;
+                        margin: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+section{
+    h2{
+        @include h2;
+    }
+    p{
+        @include p;
+    }
+    .linkCentrado{
+        text-align: center;
+        margin: 25px;
+        .a{
+            @include a;
+        }
+    } 
+    .flex{
+        @include flex;
+        .yo{
+            width: 15%;
+            border-radius: 50px;
+        }       
+    }
+}

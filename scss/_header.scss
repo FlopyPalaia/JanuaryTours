@@ -1,0 +1,34 @@
+.header{
+    background-color: $blanco;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    #logo2{
+        width: 50px;
+        margin: 5px;
+    }
+    nav{
+        text-align: center;
+        ul{
+            padding-left: 0px;
+            .menu{
+                display: inline-block;
+                padding-bottom: 15px;
+                padding-top: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+                .a{
+                    @include a;
+                    &.a:hover{
+                        border: $azulVerdoso solid 2px;
+                        color: $azulVerdoso;
+                    }
+                }
+            }
+        }
+    }
+}
