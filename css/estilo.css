@@ -19,14 +19,14 @@
         padding-top: 10px;
         padding-left: 10px;
         padding-right: 10px; }
+        .header nav ul .menu.menu:hover {
+          transform: scale(1.1, 1.1); }
         .header nav ul .menu .a {
           text-decoration: none;
           border: solid 1px #395e5f;
           padding: 5px;
           color: #395e5f;
           background-color: white; }
-          .header nav ul .menu .a.a:hover {
-            transform: scale(1.05, 1.05); }
 
 .hr {
   margin: 25px; }
@@ -52,7 +52,7 @@
   .gridFooter .social {
     margin-bottom: 10px; }
     .gridFooter .social.social:hover {
-      transform: scale(1.05, 1.05); }
+      transform: scale(1.1, 1.1); }
   .gridFooter .a {
     text-decoration: none;
     border: solid 1px #395e5f;
