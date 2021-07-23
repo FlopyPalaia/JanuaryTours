@@ -24,8 +24,7 @@
                 .a{
                     @include a;
                     &.a:hover{
-                        border: $azulVerdoso solid 2px;
-                        color: $azulVerdoso;
+                        transform: scale(1.05, 1.05);
                     }
                 }
             }
