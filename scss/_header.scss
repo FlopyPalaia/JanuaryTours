@@ -21,11 +21,11 @@
                 padding-top: 10px;
                 padding-left: 10px;
                 padding-right: 10px;
+                    &.menu:hover{
+                        transform: scale(1.1, 1.1);
+                    }
                 .a{
                     @include a;
-                    &.a:hover{
-                        transform: scale(1.05, 1.05);
-                    }
                 }
             }
         }
