@@ -45,8 +45,7 @@
 }
 
 .header nav ul .menu .a.a:hover {
-  border: #395e5f solid 2px;
-  color: #395e5f;
+  transform: scale(1.05, 1.05);
 }
 
 .hr {
