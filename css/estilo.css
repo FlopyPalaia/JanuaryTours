@@ -205,6 +205,8 @@ section .flex {
     .flex .flex .galeria {
       width: 70%;
       margin: 10px; }
+    .flex .flex .card {
+      border: 0px; }
 
 /*blog*/
 main h1 {
