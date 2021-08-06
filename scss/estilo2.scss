@@ -102,10 +102,19 @@ body{
     .noMostrar{
         display: none;
     }
+    #a2{
+        text-decoration: underline;
+        border: solid 1px $azulVerdoso;
+        padding: 5px;
+        color: $azulVerdoso;
+    }
 }
 
 @media only screen and (min-width: 577px){
     #logo2{
+        display: none;
+    }
+    #a2{
         display: none;
     }
 }
