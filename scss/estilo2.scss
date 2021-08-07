@@ -107,8 +107,10 @@ body{
     .noMostrar{
         display: none;
     }
+    #a{
+        text-decoration: none;
+    }
     #a2{
-        text-decoration: underline;
         border: solid 1px $azulVerdoso;
         padding: 5px;
         color: $azulVerdoso;
