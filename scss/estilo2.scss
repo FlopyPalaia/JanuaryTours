@@ -69,7 +69,7 @@ body{
         "fotoMail mail fotoInsta insta" 
     }
     #fotoTelefono{
-        @include footer (fotoTelefono, 25px)
+        @include footer (fotoTelefono, 30px)
     }
     #fotoMail{
         @include footer (fotoMail, 15px)
