@@ -328,8 +328,9 @@ body {
     margin-right: 5px; }
   .noMostrar {
     display: none; }
+  #a {
+    text-decoration: none; }
   #a2 {
-    text-decoration: underline;
     border: solid 1px #395e5f;
     padding: 5px;
     color: #395e5f; } }
